@@ -2,27 +2,22 @@ sudo: required
 dist: trusty
 language: node_js
 node_js:
-  - 6
-
+- 6
 before_install:
-  - export CHROME_BIN=chromium-browser
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-
+- export CHROME_BIN=chromium-browser
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
 before_script:
-  - npm run build
-
+- npm run build
 script:
-  - npm run test
-
+- npm run test
 after_success:
-  - bash ./deploy.sh
-
+- bash ./deploy.sh
 cache:
   directories: node_modules
-
-# safelist
 branches:
   only:
   - master
-
+env:
+  global:
+    secure: ReODr40cy6L8s1eck6fOi12aXJh3jece2f88MNZglz52ePGeJmQ3Cr1b6cJLSWB1pMYHgpsk1QLOGUaFX6D64lb+GRa7VqPAMxozuqOcZrWnK/WNVXure5XksLO35TP2AtG4Diu1ydx6d3ocpDoxka3xwno1bC12DkQmDadKCRXy/4ZUpE2Wfs/q/s6N1gsKMl1Xzi6CU8mnB8p/u1EThBU357HhodXfr6khIgnVh7K/ZvFF0eLMhcHluxW4mKumaPeXdy/ul+jCjM4zFv7F+i1M/JNasITxXDdX4AUmJHSmbaFAk0DT5kLpzV20S0XoTT+NCw6sERpFmdAUXJmRHPGGKyLB91VpxuI+kiYuBtDvwFI/8QwErWj/RON6UJtTSh3Yhw3O5yT1L2h+4sscClilKeRktaeMtM/Qi4gC2fSB/SMqVMZpBB4KkeET1uKh+zpraO8wHRzmUeFcY0Y3lF9xr9OirQHUwb5NiNObdoKbeHxXHlH47T9IVAeUiB2rvJGh7tev4yOhVt1AJwxulll6HzEREz/3wWYSt17Fb7Ovb4HeKbypgzcyDGWmSolTIfCQuLQZFEoY7r6AYQOY/FXGkFyHfs9Uad6iprYMB8e/t2HlVfGxjZyVYV9hKuVcAld+E2ZJsxauyid2kxwkGe72+q7ucSfgaHLMODvNCWI=
