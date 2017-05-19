@@ -11,8 +11,6 @@ before_script:
 - npm run build
 script:
 - npm run test
-after_success:
-- bash ./deploy.sh
 cache:
   directories: node_modules
 branches:
