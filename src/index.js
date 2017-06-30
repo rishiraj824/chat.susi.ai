@@ -18,8 +18,8 @@ import {
 } from 'react-router-dom';
 
 ChatWebAPIUtils.getSettings();
-ChatWebAPIUtils.getLocation();
-ChatWebAPIUtils.getHistory();
+ChatWebAPIUtils.getLocation();/*
+ChatWebAPIUtils.getHistory();*/
 ChatWebAPIUtils.getAllMessages();
 
 const App = () => (
