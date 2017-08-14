@@ -65,7 +65,28 @@
    "Failed. Try Again":"Gescheitert. Versuch es noch einmal",
    "Sign Up with SUSI":"Melden Sie sich mit SUSI an",
    "Confirm Password":"Bestätige das Passwort",
-   "If you have an Account Please Login":"Wenn Sie ein Konto haben, melden Sie sich bitte an"
-
-
+   "If you have an Account Please Login":"Wenn Sie ein Konto haben, melden Sie sich bitte an",
+   "Current Password":"Aktuelles Passwort",
+   "New Password":"Neues Kennwort",
+   "Confirm New Password":"Bestätige neues Passwort",
+   "Change":"Veränderung",
+   "Worst":"Am schlimmsten",
+   "Bad":"Schlecht",
+   "Weak":"Schwach",
+   "Good":"Gut",
+   "Strong":"Stark",
+   "Minimum 6 characters required":"Mindestens 6 Zeichen erforderlich",
+   "Check your password again":"Überprüfen Sie Ihr Passwort erneut",
+   "Invalid Credentials. Please check your Email or Password.":"Ungültige Anmeldeinformationen. Bitte überprüfen Sie Ihre Email oder Ihr Passwort.",
+   "Please login again.":"Bitte melden Sie sich erneut an.",
+   "Please Try Again.":"Bitte versuche es erneut.",
+   "Failed. Try Again":"Gescheitert. Versuch es noch einmal",
+   "Please check your internet connection":"Bitte überprüfe deine Internetverbindung",
+   "Forgot Password ?":"Passwort vergessen ?",
+   "Email":"Email",
+   "Reset":"Zurücksetzen",
+   "Enter a valid URL":"Geben Sie eine gültige URL ein",
+   "This Field Is Required":"Dieses Feld wird benötigt",
+   "Invalid Email":"Ungültige E-Mail",
+   "Email does not exist":"E-Mail existiert nicht"
 }
